@@ -1,0 +1,194 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+#header{
+    background-color: #F0FFF0;
+}
+.container{
+    margin-top: 100px;
+}
+#bg-color{
+    background-color: #F0FFF0;
+}
+.header{
+    background-color: #F0FFF0;
+}
+
+#icon-img{
+   
+    height: 59px;
+}
+#sign-in{
+    width: 104px;
+    height: 43px;
+    background:  #21B573;
+    border-radius: 33px;
+    padding: 12px 0px 0px 28px;
+    color: white;
+    font-size: 16px;
+    line-height: 19px;
+    
+}
+#sign-in:hover{
+    background-color: #08d87a; 
+}
+.nav-items{
+    color: black;
+}
+.nav-items:hover{
+    color: gray;
+}
+#get-started{
+    width: 153px;
+    height: 43px;
+    background: #21B573;
+    border-radius: 33px; 
+    padding: 12px 0px 0px 36px;
+    color: wheat; 
+    font-size: 16px;
+    line-height: 19px;
+}
+#get-started:hover{
+    background-color:#188a56 ;
+}
+
+#books{
+   margin-top: 50px;
+}
+#books .card{
+    border: none;
+    background-color: #F8FFFB;
+    border-radius: 10px;
+}
+#books .card img{
+    height: 83px;
+    width: 80px;
+    margin: 0 auto;
+    margin-top: 25%;
+}
+#books .card-body{
+    text-align: center;
+   
+}
+#books .card:hover{
+    background-color: #fff;
+    box-shadow:  0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#course h2{
+  margin-bottom: 50px;
+}
+#course p{
+    color: grey;
+}
+#course h4{
+    color: #413960;
+}
+#course .card{
+    border: none;
+    background-color: honeydew;
+    border-radius: 10px;
+}
+#buy-course{
+    width: 137px;
+    height: 35px;
+    background: #21B573;
+    border-radius: 33px;
+    padding: 8px 0px 0px 28px;
+    color: honeydew;
+    font-size: 16px;
+    line-height: 19px;
+}
+#buy-course:hover{
+    background-color: #08d87a; 
+}
+.date img{
+    width: 24px;
+    height: 24px;
+}
+.date h6{
+    font-size: 16px;
+    line-height: 24px;
+}
+.seat img{
+    width: 24px;
+    height: 24px;
+    left: 783px;
+    top: 1530px;
+    
+}
+.space{
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#testimonial img{
+    width: 120px;
+   height: 120px;
+}
+#testimonial {
+    margin-top: 50px;
+    width: 60%;
+    margin:15%;
+}
+#blog{
+    margin-top: 80px;
+}
+#blog p{
+    font-size: 16px;
+    line-height: 30px;
+}
+#footer ul{
+    list-style-type:none;
+}
+
+#footer h6,h3,li{
+    color: honeydew;
+}
+#footer,footer{
+    width: 1250px;
+    height: 250px;
+    background: #282531;
+    
+}
+#footer h6{
+    margin-top: 50px;
+}
+#footer ul,li{
+    font-size: 16px;
+    font-weight: normal;
+    
+}
+#footer li{
+    margin-inline-end: auto;
+}
+#footer ul, h2{
+    margin-inline-end: auto;
+}
+footer{
+    text-align: center;
+    color: honeydew;
+    height: 20px;
+}
+#footer h6{
+margin-inline-end: auto;
+    font-size: 16px;
+    line-height: 30px;
+}
+#footer ul,h2{
+    margin-top: 50px;
+}
+#others{
+    margin-bottom: 50px;
+}
+
+
+@media (max-width: 767px){
+    #header .img-fluid{
+        margin-top: 30px;
+    }
+}
